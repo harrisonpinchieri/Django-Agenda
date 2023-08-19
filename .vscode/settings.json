@@ -27,12 +27,12 @@
         "source.organizeImports": true
       }
     },
-    "python.languageServer": "Pylance",
+    "python.languageServer": "Pylance", 
     "python.formatting.autopep8Args": [
       "--indent-size=4",
       "--max-line-length=80"
       // "--ignore=E111"
-    ],
+    ],   
     "python.linting.flake8Args": [
       // "--ignore=E111",
     ],
@@ -51,4 +51,5 @@
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.enabled": true,
     "python.formatting.provider": "none"
+    
   }
