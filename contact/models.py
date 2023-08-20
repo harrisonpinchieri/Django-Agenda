@@ -1,6 +1,9 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
+
+
 class Category(models.Model):
     nome = models.CharField('Categoria', max_length=50)
 
@@ -27,6 +30,11 @@ class Contact(models.Model):
                                  blank=True,
                                  null=True
                                  )
+    owner = models.ForeignKey(User,
+                              on_delete=models.SET_NULL,
+                              blank=True,
+                              null=True
+                              )
 
     class Meta:
         verbose_name = 'Contato'
