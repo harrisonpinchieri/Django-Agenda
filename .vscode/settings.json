@@ -1,12 +1,12 @@
 {
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 0,
     "editor.fontSize": 15,
     "editor.hover.enabled": true,
     "workbench.startupEditor": "none",
     "explorer.compactFolders": false,
     "terminal.integrated.fontSize": 13,
     "editor.rulers": [80, 120],
-    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
     "code-runner.executorMap": {
       "python": "clear ; python -u"
